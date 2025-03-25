@@ -1,0 +1,86 @@
+.estudiantes-container {
+
+    margin: 2rem auto;
+
+    padding: 1rem;
+
+    max-width: 800px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+}
+ 
+.form-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr) auto;
+
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+
+}
+ 
+.form-container input {
+
+    padding: 0.5rem;
+
+    border: 1px solid #ddd;
+
+    border-radius: 4px;
+
+}
+ 
+.form-container button {
+
+    padding: 0.5rem 1rem;
+
+    background-color: #4CAF50;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+}
+ 
+.form-container button:hover {
+
+    background-color: #45a049;
+
+}
+ 
+.estudiantes-table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 1rem;
+
+}
+ 
+.estudiantes-table td {
+
+    padding: 0.8rem;
+
+    border: 1px solid #ddd;
+
+    text-align: left;
+
+}
+ 
+.listado-container h3 {
+
+    margin-bottom: 0.5rem;
+
+    color: #333;
+
+}
+ 
